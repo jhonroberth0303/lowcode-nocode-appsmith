@@ -1,14 +1,14 @@
 {
-  "gitSyncId": "677afd65cc84260f1624d460_cfd01d7d-3a45-4e31-95f5-b4cfa06c1806",
+  "gitSyncId": "677afd65cc84260f1624d460_bfd2d121-ca6b-42fb-b882-9860f356f545",
   "id": "Page1_Query1",
   "pluginId": "dynamo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "",
+      "body": "{\n    \"TableName\": \"Bovine\"\n}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
-      "path": "GetItem",
+      "path": "Scan",
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -19,7 +19,7 @@
       "pluginId": "dynamo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Query1",
     "pageId": "Page1",
     "userSetOnLoad": false
